@@ -25,5 +25,5 @@ export const REQUIRED_NETWORK = 'Sepolia';
 export const REQUIRED_CHAIN_ID = 11155111;
 export const MAX_QUOTE_AMOUNT = 1000000;
 export const DEFAULT_TX_RECIPIENT = '0x1D1c46CB30458e3492376E7938EF0414A539Df6e';
-export const TX_RECIPIENT = import.meta.env.VITE_TX_RECIPIENT ?? DEFAULT_TX_RECIPIENT;
+export const TX_RECIPIENT = import.meta.env?.VITE_TX_RECIPIENT ?? DEFAULT_TX_RECIPIENT;
 export const SEPOLIA_EXPLORER_BASE = 'https://sepolia.etherscan.io/tx';

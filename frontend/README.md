@@ -96,10 +96,20 @@ Currency IDs used by the frontend:
 | `npm run build`        | Production build               |
 | `npm run preview`      | Preview production build       |
 | `npm run lint`         | Run ESLint                     |
+| `npm test`             | Run unit tests                 |
 | `npm run lint:fix`     | Fix lint issues where possible |
 | `npm run format`       | Format source files            |
 | `npm run format:check` | Validate formatting            |
 
+## Testing
+
+Run the unit tests from the `frontend` directory:
+
+```bash
+npm test
+```
+
+The current unit tests cover the quote validation rules in `src/lib/quoteValidation.ts`, including amount validation and supported currency pairs.
 
 ## App Rules (current)
 
