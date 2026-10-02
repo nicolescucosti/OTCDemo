@@ -1,0 +1,14 @@
+{
+  "name": "otc-demo-api",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Minimal mock Quotes API for the OTC frontend portfolio demo.",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
